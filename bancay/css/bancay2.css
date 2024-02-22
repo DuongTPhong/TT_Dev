@@ -1,0 +1,517 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Roboto', sans-serif; */
+}
+.top{
+    height: 35px;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.top1{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    height: 35px;
+}
+.top1 .lienhe{
+    right: 0;
+    position: absolute;
+    display: flex;
+}
+
+.lienhe .phone{
+    vertical-align: middle; 
+    margin-top: 7px;
+}
+.top1 ul li{
+    display: inline-block;
+    line-height: 35px;
+    border-right: 1px solid gray;
+    padding: 0 .7rem;
+    text-decoration: none;
+} 
+.top1 ul li a{
+    color: #3d3d3d;
+    text-decoration: none;
+}
+/*------------------ thanh số 2 gồm logo ------------------*/
+.stop{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.stop .stopl{
+    width: 100px;
+}
+.stopm .lup{
+    position: absolute;
+    right: 0;
+    z-index: 8;
+}
+.stop .stopm{
+    margin-top: 50px;
+    width: 370px;
+    position: relative;
+    height: 25px;
+    display: flex;
+}
+.stopm .lup{
+    position: absolute;
+    right: 0;
+    z-index: 8;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.stopm input{
+    position: absolute  ;
+    height: 25px;
+}
+.stop .stopr{
+    margin-top: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.stopr .sl{
+    display: flex;
+    width: 240px;
+}
+.sl img{
+    margin-right: 15px;
+}
+/* ----------------------menu--------------------- */
+.menu{
+    background-color: #46ad0e;
+    width: 100%;
+    height: 40px;
+}
+.menu ul {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu ul li:hover{
+    background-color: #d74e8e;
+    color: #000;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 0px 3rem;
+    /* border: 1px solid black; */
+}
+.menu ul li a{
+    color: #ffffff;
+    line-height: 40px;
+    text-decoration: none;
+    list-style: none;
+}
+.menu li:first-child{
+    width: 140px;
+    background-color: #ff3f00;
+}
+/* ----------------duoi menu------------ */
+.a1{
+    display: flex;
+    width: 100%;
+}
+.loaicay{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    display: flex;
+
+}
+.menutrai ul{
+    background-color: #f4f4f4;
+    width: 238px;
+}
+.menutrai ul li{
+    border-bottom: 1px solid #dedede;
+    height: 47px;
+    justify-content: center;
+    list-style: none;
+}
+.menutrai ul li img{
+    transform: scale(1);
+    padding:0px 5px;
+}
+.menutrai ul li a{
+    color: #525254;
+    font-size: 15px;
+    text-decoration: none; 
+    line-height: 47px;
+}
+.anhphai{
+    margin-top: 48px;
+    margin-left:125px;
+    transform: scale(1.18);
+    width: 1100px;
+}
+.anhphai img{
+    width: 905px;
+    height: 220px;
+}
+/* ----------------mũi tên ----------------- */
+.nen{
+    background-color: #f3f3f3;
+    height: 35px;
+    width: 90%;
+    margin-top: 17px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nen .duoi {
+    background-color: #46ad0e;
+    width: 238px;
+    position: absolute;
+    height: 35px;
+}
+.duoi .dau{
+    background-color: #46ad0e;
+    width: 24px;
+    height: 24px;
+    transform: rotate(45deg);
+    margin-top: 5.5px;
+    margin-left: 226px;
+    z-index: 0;
+}
+.nen .contMt{
+    position: absolute;
+    display: flex;
+    color: #dedede;
+    width: 300px;
+}
+.nen .contMt p{
+    margin-top: 5px;
+    left: 2rem;
+    position: absolute;
+}
+.contMt .arrow{
+    margin-left: 13rem;
+    height: 30px;
+    width: 15px;
+    margin-top: 3px;
+}
+.all{
+    position: absolute;
+    right: 80px;
+    color: #000 ;
+    display: flex;
+    padding: .5rem 0rem;
+}
+.all img{
+    width: 7px;
+    padding-left: .3rem;
+}
+.pic{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex   ;
+}
+.pic .picl{
+    width: 148px;
+    margin-top: 1.5rem;
+}
+.pic .picl img{
+    width: 235px;
+}
+/* ----------cây bên phải--------- */
+.container {
+    margin:1rem 10%;
+    transform: scale(0.85);
+    margin-top: -23px;
+}
+.row{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap; 
+    margin-left: -6rem; 
+    width: 1350px;
+}
+.col{
+    width: 23%;
+}
+.item {
+    margin: 1rem ;
+    margin-right: 90px;
+    border:1px solid #dedede;
+    padding: .5rem;
+    transform: scale(1.1);
+}
+
+.item .img{
+    position: relative;
+}
+.item .img img{
+    width: 100%;
+}
+.item .img .desc{
+    display: none;
+    position: absolute;
+    background-color:  rgba(70,173,14,0.6);
+
+    width: 100%;
+    height: 100%;
+}
+.item .img:hover .desc{
+    display: block;
+    color: #fff;
+    cursor: pointer;
+}
+.desc p{
+    margin: 1rem;
+}
+
+.desc  p.button{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    /* width: 100%; */
+    left: 0;
+    right: 0;
+}
+.desc  p.button a{
+    display: block;
+    color:#000;
+    background-color: #fff;
+    padding: .5rem 1rem;
+    margin:0 .5rem;
+    text-decoration: none;
+    border-radius: .25rem;
+}
+
+.item .content p{
+    /* font-family: "OpenSans-SemiBold"; */
+    font-family: 'Roboto', sans-serif;
+    font-size: .8rem;
+    text-align: center;
+    margin: .25rem 0;
+}
+.item p.price{
+    color: #339900;
+}
+
+/*   */
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .col{
+        width: 100%;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+ /* @media (min-width: 576px) and (max-width: 767.98px) { */
+    /* .col{ */
+        /* width: 50%; */
+    /* } */
+ /* }  */
+
+/* // Medium devices (tablets, 768px and up) */
+ /* @media (min-width: 768px) and (max-width: 991.98px) {  */
+    
+ /* }  */
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) and (max-width: 1199.98px) { } */
+
+/* // Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { } */
+
+/* // Large devices (desktops, less than 1200px) */
+
+@media (max-width: 1900.98px) { 
+    .col{
+        width: 25%;
+    }
+ }
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 1201.98px) { 
+    .col{
+        width: 25%;
+    }
+ }
+
+
+
+/* // Small devices (landscape phones, less than 768px) */
+ @media (max-width: 767.98px) { 
+    .col{
+    width: 33.33%;
+ }
+
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media screen and (max-width: 575.98px) { 
+    .col{
+        width: 100%;
+    }
+ }
+
+
+
+
+
+/* // Extra large devices (large desktops) */
+/* // No media query since the extra-large breakpoint has no upper bound on its width */
+/* ----------------Tin Tức------------------- */
+.tintuc{
+    width: 100%;
+    background-color: #f4f4f4;
+    height: 30rem;
+}
+.tintuc1 .text{
+    padding-top: 20px;
+    color: #46ad0e;
+    width: 67px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25px;
+}
+.tintuc .tintuc1{
+    width: 91%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tintuc .contenttt{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between ;
+}
+.gach{
+    display: flex ;
+    margin-bottom: 0;
+    width: 67px;
+}
+.gach1{ 
+    margin-top: 1px;
+    width: 30px;
+    color: green;
+    background-color: #339900   ;
+    height: 2px;
+}
+.gach .cham{
+    margin: 0px 2px;
+    border: 2px solid green;
+    width: .1px;
+    height: .2px;
+    border-radius: 2px;
+}
+.contenttt .news{
+    width: 290px;
+}
+.news img{
+    width: 290px;
+    height: 175px;
+}
+.xthem{
+    margin: 2rem;
+    width: 90px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    height: 20px;
+}
+.xthem img{
+    width: 6px;
+    margin: .2rem .3rem ;
+}
+.xthem p{
+    line-height:20px ;
+}
+.news .aa i{
+    color:#46ad0e;
+    margin: 1rem .1rem;
+}
+.xts{
+    margin-top: 5%;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* ------------ý kiến khách hàng-------- */
+.ykkh{
+    width: 100%;
+    background-color: #ffffff;
+    height: 25rem;
+}
+.ykkh .ykkh1{
+    width: 91%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ykkh1 .txtkh{
+    padding-top: 20px;
+    color: #46ad0e;
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 25px;
+}
+.txtkh .gach{
+    margin-top: 5px;
+    margin-left: 39px;
+}
+.khcontent{
+    margin-top: 30px;
+    width: 100%;
+    flex-wrap: wrap ;
+    display: flex;
+    justify-content: space-between;
+}
+.kh{
+    width: 31%;
+    height: 150px;
+}
+.ten{
+    margin-top: 4.5rem;
+}
+.kh_1{
+    border: 1px dashed black;
+    width: 410px;
+    height: 200px;
+    border-radius: 1rem ;
+}
+.kh_2{
+    display: flex;
+    margin-top: 1rem;
+}
+.kh .txtkh{
+    color: #000;
+    margin-right: 150px;
+}
+footer{
+    width: 100%;
+    height: 250px;
+    background-image:url(../img/footer-bg.png);
+}
+footer .menuft{
+    height: 30px;
+    width: 100%;
+    background-color: #398c10;
+}
+footer .menuft .menuftl{
+}
+footer .menuft .menuftl ul{
+    display: flex;
+}
+footer .menuft .menuftl ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 10px;
+}
+footer .menuft .menuftl ul li a{
+    color: #f3f3f3;
+    text-decoration: none;
+}
